@@ -1,0 +1,23 @@
+{
+    "name": "project_zoom_postman",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "boostrap": "^2.0.0",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.1"
+    },
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    },
+    "scripts": {
+        "dev": "lite-server"
+    }
+}
