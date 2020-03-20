@@ -1,7 +1,7 @@
 function QuanLySinhVienService() {
     this.LayDanhSachSinhVien = function() {
         return axios({
-            url: 'http://svcy.myclass.vn/api/SinhVien/LayDanhSachSinhVien',
+            url: 'http://svcy.vn/api/SinhVien/LayDanhSachSinhVien',
             method: 'GET', //GET POST PUT DELETE
             responseType: 'json' //defautl la json
         })
@@ -9,14 +9,14 @@ function QuanLySinhVienService() {
 
     this.ThemSinhVien = function(a) {
         return axios({
-            url: 'http://svcy.myclass.vn/api/SinhVien/ThemSinhVien',
+            url: 'http://svcy.vn/api/SinhVien/ThemSinhVien',
             method: 'POST', //GET POST PUT DELETE
             data: a
         })
     }
     this.XoaSinhVien = function(id) {
         return axios({
-            url: 'http://svcy.myclass.vn/api/SinhVien/XoaSinhVien/' + id,
+            url: 'http://svcy/api/SinhVien/XoaSinhVien/' + id,
             method: 'DELETE'
         })
     }
